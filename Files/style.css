@@ -40,6 +40,15 @@ input[type="password"] {
     font-size: 20px;
     box-sizing: border-box; /* Ensures padding is included in the width */
 }
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px; /* Space for the eye icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
 
 #eye-toggle {
     cursor: pointer;
